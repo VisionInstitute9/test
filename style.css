@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    border-top: 10px solid rgb(16, 152, 173);
+    font-family: sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header{
+    padding-left: 1.5rem;;
+
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    color: rgb(16, 152, 173);
+}
+li:first-child{
+    padding-left: 1rem;
+    
+}
+li{
+    display: inline-block;
+    padding: 1rem;
+}
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+.Magazine::first-letter{
+    font-style: normal;
+}
+.Magazine{
+    float: left;
+    text-transform: uppercase;
+    font-style: oblique;
+    padding:10px;
+}
+.nav-bar{
+float:right;
+padding-top: 10px;
+}
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: block;
+}
